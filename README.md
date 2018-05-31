@@ -1,2 +1,2 @@
 # windbrush
-Game art and animator software intended to have an intuitive workflow
+Game art and animation software intended to have an intuitive workflow
