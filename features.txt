@@ -1,0 +1,55 @@
+
+Feature Plans for Windbrush
+[Updated: 2019-10-17]
+
+- User interface taking up about 20% of the screen at most.
+- Layout optimization for Portrait and Landscape screen modes.
+- UI components open on click or hover, and optionally stay open
+  if locked. Goal of 2 clicks maximum for any available action.
+- Hotkeys to open and auto-lock appropriate UI components.
+- HSV/HSB color selector with optional numeric input.
+  Shape of selector is TBD, but likely based on a Triangle.
+- Color Harmony guide to choose complementary/etc colors.
+- Complementary Color mode in color selector shows inverted shapes
+  with colors. Optional auto-selection of complementary color.
+- Color mixer where resulting color is surrounded by X number
+  of colors, optionally enabled by clicking between both.
+- Mix amount determined with slider in between resulting
+  color and color component.
+- Pixel displacement tool, where a line is sized and/or rotated,
+  allowing for pixels to be divided/moved around.
+- Easy to use animation interface where frames can be dragged
+  and dropped around.
+- Fast scrolling using supplementary devices, such as the
+  Leap Motion. Intended to ease working with large images.
+- Drawing tablet support, with auto-eraser detection.
+- Consistent and optional pixel grid.
+- Zoomed pixel editing mode for either the entire work area,
+  or through a selected area using a zoom lens.
+- Pre-selected zoom presets for fast cycling between desired
+  zoom amounts using the mouse wheel or equivalent.
+- Optional auto-detection of handedness, adjusting UI for
+  right/left handedness.
+- Animation preview showing current frame regular sized, previous
+  2 frames scaled above, and next 2 frames scaled below.
+- Dynamic floating color palette allowing colors to be added to
+  either side, in any desired shape, grouped by the artist.
+- Provide only necessary program options, making intelligent design
+  decisions wherever possible.
+- Human proportions grid with customizable dimensions. Guide for
+  fat deposits/etc to assist with variations in body type.
+- Draw over guide for 3-D models, such as mannequins, planned for
+  later releases.
+- Pixel extruder tool to "raise" selected pixels.
+- Scanner support planned as a draw over guide layer.
+- Sprite Sheet editing with drag and drop re-arrangement.
+- Pixel mask support for more precise editing.
+- Silhouette preview mode.
+- Color blind preview mode.
+- Optional enabling of ASMR style brush strokes for
+  audio feedback (TBD).
+- Guided pixel tool which attempts to draw clean lines based on
+  the current pixel position. May also use direction prediction.
+- Built-in pixel drawing tutorial, based on Windbrush's
+  features/capabilities.
+- Image offsetting to edit seamless tiles, etc.
