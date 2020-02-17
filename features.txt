@@ -53,3 +53,6 @@ Feature Plans for Windbrush
 - Built-in pixel drawing tutorial, based on Windbrush's
   features/capabilities.
 - Image offsetting to edit seamless tiles, etc.
+- Perspective snap tool in which the start point is chosen, then
+  the end point snaps to the perspective by the perspective point
+  whose zone the starting point is in.
