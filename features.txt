@@ -56,3 +56,5 @@ Feature Plans for Windbrush
 - Perspective snap tool in which the start point is chosen, then
   the end point snaps to the perspective by the perspective point
   whose zone the starting point is in.
+- Clicking and dragging moves the color palette. But clicking and
+  releasing selects a new color.
