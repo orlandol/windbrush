@@ -59,3 +59,6 @@ Feature Plans for Windbrush
 - Clicking and dragging moves the color palette. But clicking and
   releasing selects a new color.
 - Isometric pixel grid.
+- Chisel tool with shape drawn by artist with customizable behavior
+  (eg: Two lines at a 30 degree angle which raises neihboring pixels
+  with each click until the artist defined limit is reached).
