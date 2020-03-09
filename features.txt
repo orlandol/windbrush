@@ -1,6 +1,6 @@
 
 Feature Plans for Windbrush
-[Updated: 2020-02-19]
+[Updated: 2020-03-09]
 
 - User interface taking up about 20% of the screen at most.
 - Layout optimization for Portrait and Landscape screen modes.
@@ -62,3 +62,7 @@ Feature Plans for Windbrush
 - Chisel tool with shape drawn by artist with customizable behavior
   (eg: Two lines at a 30 degree angle which raises neihboring pixels
   with each click until the artist defined limit is reached).
+- Internal: Edit images using the display pixel format. Convert when
+  loading or saving from a different format. If the pixel format is
+  indexed, the floating palette will have an associated color index.
+  The color index will be converted to a pixel when drawing.
