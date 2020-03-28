@@ -66,3 +66,6 @@ Feature Plans for Windbrush
   loading or saving from a different format. If the pixel format is
   indexed, the floating palette will have an associated color index.
   The color index will be converted to a pixel when drawing.
+- Internal: Optimization for thick line drawing - Save points into a
+  straight line, and make current stroke a line until the active
+  point changes direction.
