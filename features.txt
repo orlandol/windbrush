@@ -1,6 +1,6 @@
 
 Feature Plans for Windbrush
-[Updated: 2020-07-04]
+[Updated: 2021-01-16]
 
 - User interface taking up about 20% of the screen at most.
 - Layout optimization for Portrait and Landscape screen modes.
@@ -47,7 +47,7 @@ Feature Plans for Windbrush
 - Silhouette preview mode.
 - Color blind preview mode.
 - Optional enabling of ASMR style brush strokes for
-  audio feedback (TBD).
+  audio feedback.
 - Guided pixel tool which attempts to draw clean lines based on
   the current pixel position. May also use direction prediction.
 - Built-in pixel drawing tutorial, based on Windbrush's
@@ -66,16 +66,8 @@ Feature Plans for Windbrush
   loading or saving from a different format. If the pixel format is
   indexed, the floating palette will have an associated color index.
   The color index will be converted to a pixel when drawing.
-- Internal: All images will be treated as indexed, where each color
-  on the floating palette serves as an index number, and the bit depth
-  determines the maxinum number of colors that the floating palette
-  can index.
 - Internal: Optimization for thick line drawing - Save points into a
   straight line, and make current stroke a line until the active
   point changes direction.
-- Internal: Pixel edge tool where the artist chooses the center point,
-  and create a custom chisel which rotates towards the center point.
-  Pressing the mouse button erases pixels under it.
-- Internal: Floating palette behavior - Dragging on mouse/press down
-  moves the palette, until release; Draw tool auto-hides palette when
-  under it.
+- Rotation tool that spins an object in 3D, using 3D motion (TBD).
+- Simple shape as brush tip (eg: circle) drawn at a smooth rate.
