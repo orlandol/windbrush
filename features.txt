@@ -1,6 +1,6 @@
 
 Feature Plans for Windbrush
-[Updated: 2021-01-16]
+[Updated: 2021-08-03]
 
 - User interface taking up about 20% of the screen at most.
 - Layout optimization for Portrait and Landscape screen modes.
@@ -71,3 +71,10 @@ Feature Plans for Windbrush
   point changes direction.
 - Rotation tool that spins an object in 3D, using 3D motion (TBD).
 - Simple shape as brush tip (eg: circle) drawn at a smooth rate.
+- Depth map is a cube of 1 x 1 x 1 pixels which can be sculpted to
+  any shape. It's used to shade the colors and materials. The Depth
+  map has a tool which can hide depth by X, Y, and/or Z so that the
+  inner pixels can be manipulated. This would allow shapes such as
+  a white cannister, with a transparent red lid. The shape would be
+  a cube while rotated, then flatten into a depth map. Depth maps
+  can be exported to serve as a precomputed depth map.
