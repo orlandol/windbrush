@@ -82,3 +82,4 @@ Feature Plans for Windbrush
 - Pixel grid.
 - Vanishing point guidelines.
 - Vanishing point pixel gridlines.
+- Vanishing points have two controls: One moves the point; The other rotates the lines.
